@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main>
+        <div className="me">
+          <h1>Fernando Jorge</h1>
+          <p>software engineer, i love building cool stuff</p>
+        </div>
+
+        <div className="talk">
+          <p>
+            Hi, I'm currently a Software Engineer @ wexinc. I am passionate
+            about computer science, mathematics, literature, gym, and sometimes
+            I adventure myself into designing my own projects.
+          </p>
+        </div>
+
+        <div className="contact">
+          <p>
+            <a href="https://github.com/assincrono" target="#blank">
+              github
+            </a>
+          </p>
+          <p>
+            <a href="https://x.com/assincrono7" target="#blank">
+              twitter
+            </a>
+          </p>
+          <p>
+            <a href="https://www.youtube.com/@nandowastaken" target="#blank">
+              youtube
+            </a>
+          </p>
+        </div>
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
