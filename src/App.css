@@ -1,62 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   background-color: #fdfdfc;
-  font-family: "Noto Serif", serif;
+  font-family: "Roboto", sans-serif;
   height: 75vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 6rem;
+  padding: 4rem;
   margin: 0;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  width: 35vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14rem;
+  width: 26vw;
 }
 
-h1 {
-  font-weight: 400;
-  margin: 0;
-  font-size: 4rem;
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10rem;
+  width: 26vw;
 }
 
 p {
   margin: 0;
-  opacity: 0.85;
-  font-size: 1.2rem;
-  text-align: center;
+}
+
+a {
+  color: black;
+  opacity: 0.75;
 }
 
 .me {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.talk {
+.name {
+  font-size: 1.1rem;
+  font-weight: 450;
+}
+
+.profession {
+  font-size: 1.1rem;
+  font-weight: 450;
+  opacity: 0.65;
+}
+
+h1 {
+  font-family: "Bitcount Prop Single Ink", system-ui;
+}
+
+.today {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.3rem;
-}
-
-.dash {
-  display: flex;
-  flex-direction: column;
-  padding-left: 2.2rem;
-  gap: 0.5rem;
-}
-
-.contact {
-  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 1rem;
+}
+
+.bio {
+  opacity: 0.75;
+  line-height: 1.75rem;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }

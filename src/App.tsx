@@ -5,36 +5,41 @@ function App() {
     <>
       <main>
         <div className="me">
-          <h1>Fernando Jorge</h1>
-          <p>software engineer, i love building cool stuff</p>
+          <p className="name">Fernando Jorge</p>
+          <p className="profession">Software Engineer</p>
         </div>
 
-        <div className="talk">
-          <p>
-            Hi, I'm currently a Software Engineer @ wexinc. I am passionate
-            about computer science, mathematics, literature, gym, and sometimes
-            I adventure myself into designing my own projects.
+        <div className="today">
+          <p className="name">Today</p>
+          <p className="bio">
+            I work as a Software Engineer at WEX. I'm a curious avid learner, I
+            love building things, exploring deeply the technical details of my
+            projects while leting my creativity run wild with my ideas.
           </p>
         </div>
 
-        <div className="contact">
-          <p>
-            <a href="https://github.com/assincrono" target="#blank">
-              github
-            </a>
-          </p>
-          <p>
-            <a href="https://x.com/assincrono7" target="#blank">
-              twitter
-            </a>
-          </p>
-          <p>
-            <a href="https://www.youtube.com/@nandowastaken" target="#blank">
-              youtube
-            </a>
-          </p>
+        <div className="links">
+          <a href="https://github.com/assincrono" target="#blank">
+            github
+          </a>
+          <a href="https://x.com/assincrono7" target="#blank">
+            twitter
+          </a>
+          <a href="https://www.youtube.com/@nandowastaken" target="#blank">
+            youtube
+          </a>
         </div>
       </main>
+
+      <footer>
+        <h1></h1>
+        <h1></h1>
+        <h1>build things you love.</h1>
+        <h1>nothing is too complicated.</h1>
+        <h1>excellency is something to look forward to.</h1>
+        <h1>pursue greatness.</h1>
+        <h1>master your craft.</h1>
+      </footer>
     </>
   );
 }
